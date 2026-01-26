@@ -92,29 +92,47 @@ Whether you are a mathematician with ideas about how proofs should be visualized
 
 ## 3. Ecosystem Architecture
 
-```
-                         USERS
-        (Mathematicians, Students, Researchers, Public)
-                            ↓
-    ┌─────────────────────────────────────────────────────┐
-    │                 ASTROLABE (Frontend)                │
-    │     3D Visualization · AI Integration · Notes       │
-    └─────────────────────────────────────────────────────┘
-                            ↓
-    ┌─────────────────────────────────────────────────────┐
-    │              OPENMATH (Proof Marketplace)           │
-    │       Bounty System · Proof Submission · Rewards    │
-    └─────────────────────────────────────────────────────┘
-                            ↓
-    ┌─────────────────────────────────────────────────────┐
-    │              SHENTU CHAIN (Blockchain)              │
-    │    On-chain Verification · Smart Contracts · CTK    │
-    └─────────────────────────────────────────────────────┘
-                            ↓
-    ┌─────────────────────────────────────────────────────┐
-    │            VERIFIED MATH LIBRARY                    │
-    │              Lean4 Proofs · Formal Theorems         │
-    └─────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    subgraph Users["👥 CONTRIBUTORS"]
+        V["🎨 Visualizers"]
+        B["🔧 Builders"]
+        E["📚 Educators"]
+        G["🌱 Growers"]
+        R["🔍 Reviewers"]
+    end
+
+    subgraph Astrolabe["🔭 ASTROLABE"]
+        UI["3D Visualization · AI Integration"]
+        AP["⭐ ASTRO Points System"]
+        GOV["🗳️ Governance"]
+    end
+
+    subgraph OpenMath["📐 OPENMATH"]
+        PM["Proof Marketplace"]
+        BT["Bounty System"]
+        CTK["💰 CTK Token"]
+    end
+
+    subgraph Shentu["⛓️ SHENTU CHAIN"]
+        SC["Smart Contracts"]
+        OCV["On-chain Verification"]
+    end
+
+    subgraph Library["📖 VERIFIED MATH LIBRARY"]
+        LP["Lean4 Proofs · Formal Theorems"]
+    end
+
+    V & B & E & G & R -->|Contribute| UI
+    UI --> AP
+    AP -->|Points| GOV
+    AP -.->|Convert| CTK
+    UI --> PM
+    PM --> BT
+    BT --> CTK
+    CTK --> SC
+    SC --> OCV
+    OCV --> LP
 ```
 
 ### Layer Responsibilities
