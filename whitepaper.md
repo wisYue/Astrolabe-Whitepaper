@@ -322,6 +322,7 @@ We are not building for mathematicians alone. We are building for everyone who b
 
 **The future of mathematics is formal. The future of mathematics is open. The future of mathematics is for everyone.**
 
+
 Join us.
 
 ---
