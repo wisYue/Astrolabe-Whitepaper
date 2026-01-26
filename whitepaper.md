@@ -304,12 +304,11 @@ Together, we create a complete ecosystem: **accessible, incentivized, and open t
 
 ### Ecosystem Partners
 
-| Organization | Role | Contribution |
-|--------------|------|--------------|
-| **CertiK** | Blockchain Infrastructure | Shentu Chain, on-chain verification, security |
-| **Feishu (菲数)** | Academic Bridge | Mathematician network, institutional partnerships, China-global collaboration |
-| **RiskLab** | Quantitative Research | Risk modeling, industry connections |
-| **Fields Institute** | Academic Partner | Mathematical AI research, academic credibility |
+| Organization | Role | Contribution | ASTRO Points Role |
+|--------------|------|--------------|-------------------|
+| **CertiK** | Blockchain Infrastructure | Shentu Chain, on-chain verification, security | Builders · Founder Circle |
+| **Feishu (菲数)** | Academic Bridge | Mathematician network, institutional partnerships, China-global collaboration | Growers · Educators |
+| **RiskLab** | Quantitative Research | Risk modeling, industry connections | Educators · Reviewers |
 
 ---
 
