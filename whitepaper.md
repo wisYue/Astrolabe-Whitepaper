@@ -125,6 +125,19 @@ Whether you are a mathematician with ideas about how proofs should be visualized
 | **OpenMath** | Proof marketplace, bounty management, reward distribution |
 | **Shentu Chain** | On-chain verification, immutable storage, token transactions |
 
+### Ecosystem Vision
+
+As the Astrolabe ecosystem matures, we could introduce prediction markets for mathematical and AI research outcomes — creating a new mechanism for crowdsourced forecasting, incentive alignment, and attention allocation in formal mathematics.
+
+We envision a future where:
+
+Attention is priced: The "importance" of a mathematical problem is reflected in market depth
+Discovery is incentivized: Early believers in solvable problems profit alongside solvers
+Proof is trustless: Formal verification eliminates oracle disputes
+Knowledge compounds: Market history becomes a dataset for AI research prioritization
+
+Prediction markets transform mathematics from a purely intellectual pursuit into an information market — where beliefs, effort, and capital align toward discovery.
+
 ---
 
 ## 4. Tokenomics
