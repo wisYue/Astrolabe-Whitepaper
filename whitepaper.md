@@ -15,7 +15,7 @@ We are building the interface layer for a new era of mathematical research: one 
 The future of mathematics is formal. The future of mathematics is visible. The future of mathematics is for everyone.
 
 ---
-
+ 
 ## 1. Problem Statement
 
 ### The Turning Point
